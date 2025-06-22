@@ -1,0 +1,27 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expected_result": true
+  },
+  {
+    "username": "",
+    "password": "secret_sauce",
+    "expected_result": false
+  },
+  {
+    "username": "wrong_username",
+    "password": "secret_sauce",
+    "expected_result": false
+  },
+  {
+    "username": "standard_user",
+    "password": "",
+    "expected_result": false
+  },
+  {
+    "username": "standard_user",
+    "password": "wrong_password",
+    "expected_result": false
+  }
+]
